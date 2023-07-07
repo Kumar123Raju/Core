@@ -1,0 +1,4 @@
+1.Important REGEXP : city name starign from vovels:
+SELECT CITY
+FROM station
+WHERE CITY REGEXP '^[aeiouAEIOU].*';
